@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Varun Nutritions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="index.html">Varun Nutritions</a></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="controls">
+        <button id="mode-toggle" aria-label="Toggle dark/light mode">🌙</button>
+        <div class="mobile-menu-toggle"><span>&#9776;</span></div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="products reveal">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/product-malt-original.jpg" alt="Original Ragi Malt" loading="lazy">
+          <h3>Original Ragi Malt</h3>
+          <p>Classic, pure Ragi Malt blend for everyday energy.</p>
+          <a href="#" class="btn-primary">Buy Now</a>
+        </div>
+        <div class="product-card">
+          <img src="images/product-malt-choco.jpg" alt="Chocolate Ragi Malt" loading="lazy">
+          <h3>Chocolate Ragi Malt</h3>
+          <p>Delicious chocolate-flavored Ragi Malt for a tasty treat.</p>
+          <a href="#" class="btn-primary">Buy Now</a>
+        </div>
+        <div class="product-card">
+          <img src="images/product-flour.jpg" alt="Ragi Flour" loading="lazy">
+          <h3>Ragi Flour</h3>
+          <p>Fine Ragi Flour perfect for baking and cooking.</p>
+          <a href="#" class="btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Varun Nutritions. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
